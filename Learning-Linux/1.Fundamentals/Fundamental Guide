@@ -1,0 +1,11 @@
+# Linux Fundamentals
+
+Below are the Linux fundamentals I have encountered and studied so far.
+
+1. Navigation
+The filesystem is a tree. You start at / (root).
+
+pwd   --> printing working directory
+ls    --> list files in current directory
+ls -la  --> list all files with details + hidden files
+cd
