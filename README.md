@@ -10,12 +10,7 @@ This Linux repository is for learning purposes only and serves as a collection o
 # Content
 This repo documents my progress in learning Linux. For now, it contains:
 1. Linux Fundamentals
-   > Navigation
-   > Files
-   > Permissions
-   > Users
-   > Packages
-   > Processes
+   > (Navigation, Files, Permissions, Users, Packages and Processes)
 
    
 More topics, notes, scripts, and projects will be added as I continue learning.
