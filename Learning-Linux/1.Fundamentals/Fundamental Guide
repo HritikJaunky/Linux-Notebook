@@ -17,10 +17,18 @@ tree /etc  --> show directory tree visually
 2. Files
 Creating, copying, moving, viewing and searching files
 
-Create & Manage
+---Create & Manage---
 touch file.txt --> create an empty file
 mkdir myfolder --> create a directory
 cp file.txt backup.txt --> copy a file
 mv file.txt /tmp/ --> move or rename a file
 rm file.txt --> delete a file
 rm -rf myfolder --> delete folder recursively
+
+---Read & Search---
+cat file.txt --> print file contents
+less file.txt --> scroll through a file (q to quit)
+head -n 20 file.txt --> show first 20 lines
+grep "error" file.txt --> search for text inside a file
+find / -name "*.conf" --> find files by name
+
