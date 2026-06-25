@@ -8,4 +8,19 @@ The filesystem is a tree. You start at / (root).
 pwd   --> printing working directory
 ls    --> list files in current directory
 ls -la  --> list all files with details + hidden files
-cd
+cd /etc  --> change to /etc directory
+cd ..  --> go up one level
+cd ~  --> go to your home directory
+cd -  --> go back to previous directory
+tree /etc  --> show directory tree visually
+
+2. Files
+Creating, copying, moving, viewing and searching files
+
+Create & Manage
+touch file.txt --> create an empty file
+mkdir myfolder --> create a directory
+cp file.txt backup.txt --> copy a file
+mv file.txt /tmp/ --> move or rename a file
+rm file.txt --> delete a file
+rm -rf myfolder --> delete folder recursively
