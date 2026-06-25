@@ -32,3 +32,20 @@ head -n 20 file.txt --> show first 20 lines
 grep "error" file.txt --> search for text inside a file
 find / -name "*.conf" --> find files by name
 
+3. Permission
+
+ls -l file.txt --> view permissions 
+
+4. Users
+Understanding users, groups, and sudo is essential for privilege escalation
+
+whoami --> show current user
+id --> show user ID, group ID, and groups
+who --> show who is logged in
+sudo command --> run command as root
+sudo su --> switch to root shell
+adduser alice --> create a new user
+usermod -aG sudo alice --> add alice to sudo group
+passwd alice --> set user password
+cat /etc/passwd --> list all users on the system
+cat /etc/shadow --> hashed passwords (root only)
