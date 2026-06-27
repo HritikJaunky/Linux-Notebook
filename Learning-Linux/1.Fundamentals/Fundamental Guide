@@ -13,7 +13,7 @@ cd ..  --> go up one level
 cd ~  --> go to your home directory
 cd -  --> go back to previous directory
 tree /etc  --> show directory tree visually
-![Linux screenshot](Screenshot 2026-06-25 090208.png)
+
 2. Files
 Creating, copying, moving, viewing and searching files
 
