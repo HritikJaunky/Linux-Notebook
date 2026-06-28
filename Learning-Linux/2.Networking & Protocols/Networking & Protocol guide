@@ -12,3 +12,4 @@ The OSI model describes how data travels across a network in 7 layers.
 3 --> Network      --> IP, routing
 2 --> Data Link    --> MAC, switches
 1 --> Physical     --> cables, NICs
+
