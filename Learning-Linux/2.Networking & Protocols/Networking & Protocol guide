@@ -1,3 +1,14 @@
 # Linux Fundamentals
 
 Below are the Linux Networking & Protocols.
+
+1. OSI & TCP/IP
+The OSI model describes how data travels across a network in 7 layers.
+
+7 --> Application  --> HTTP, FTP, DNS
+6 --> Presentation --> SSL/TLS, encoding
+5 --> Session      --> session mgmt
+4 --> Transport    --> TCP, UDP
+3 --> Network      --> IP, routing
+2 --> Data Link    --> MAC, switches
+1 --> Physical     --> cables, NICs
