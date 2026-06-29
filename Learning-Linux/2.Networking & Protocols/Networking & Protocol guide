@@ -22,3 +22,49 @@ ip a        --> show your IP addresses (modern)
 ifconfig    --> show network interfaces (older)
 ip route    --> show your routing table
 hostname -I --> quick way to see your IP
+
+3. DNS & HTTP
+DNS translates names to IPs.
+
+nslookup google.com      --> resolve a domain to an IP
+dig google.com           --> detailed DNS lookup
+dig google.com MX        --> look up mail servers
+whois google.com         --> domain registration info
+curl -I https://site.com --> view HTTP response headers
+curl https://site.com    --> fetch raw page content
+
+4. TCP/UDP & Ports
+Port 21   --> FTP
+Port 22   --> SSH
+Port 23   --> Telnet
+Port 25   --> SMTP (email)
+Port 53   --> DNS
+Port 80   --> HTTP
+Port 443  --> HTTPS
+Port 445  --> SMB (Windows file sharing)
+Port 3389 --> RDP (Windows remote desktop)
+
+5. Nmap
+It's how you discover what's alive on a network and what's running on it.
+
+nmap 192.168.1.1        --> basic scan of a single host
+nmap 192.168.1.0/24     --> scan an entire subnet
+nmap -sV target         --> detect service versions
+nmap -sS target         --> stealth SYN scan
+nmap -O target          --> guess the OS
+nmap -A target          --> aggressive scan (OS+version+scripts)
+nmap -p- target         --> scan all 65535 ports
+nmap -sn 192.168.1.0/24 --> ping scan only (find live hosts)
+Only scan networks/hosts you own or have explicit written permission to test (e.g. TryHackMe, HackTheBox, your own home lab VMs)
+Use yown device IP Address please
+
+6. Wireshark
+Wireshark lets you see every packet flowing across a network. It turns abstract protocols into something you can actually watch happen.
+
+wireshark               --> launch the GUI
+tcpdump -i eth0         --> capture packets from terminal
+tcpdump -i eth0 port 80 --> capture only HTTP traffic
+http                    --> Wireshark filter: show only HTTP
+ip.addr == 192.168.1.5  --> filter by IP address
+tcp.port == 443         --> filter by port
+
