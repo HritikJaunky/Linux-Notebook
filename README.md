@@ -6,6 +6,7 @@ I am new to GitHub and always learning. This repository is mainly for documentin
 
 # Disclaimer
 This Linux repository is for learning purposes only and serves as a collection of notes, commands, and much more as I continue exploring and learning Linux.
+You can learn about any Linux distros through any AI available or by joining a community.
 
 # Content
 This repo documents my progress in learning Linux. For now, it contains:
